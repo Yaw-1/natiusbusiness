@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#0f3d25"/><stop offset="1" stop-color="#39d353"/></linearGradient></defs>
+<rect width="800" height="520" fill="url(#g)"/>
+<circle cx="400" cy="185" r="82" fill="#fff" opacity=".96"/>
+<circle cx="400" cy="165" r="32" fill="#166534"/>
+<path d="M330 245c20-46 120-46 140 0v34H330z" fill="#166534"/>
+<text x="400" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#fff">CUSTOMER PHOTO</text>
+<text x="400" y="405" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#fff" opacity=".9">Replace with a real customer image</text>
+</svg>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About NATIUS Business Services | Tema, Ghana</title>
+
+    <meta name="description" content="Learn more about NATIUS Business Services and our commitment to reliable, convenient and professional customer service.">
+    <meta name="theme-color" content="#166534">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="images/natius-logo.png">
+    <link rel="apple-touch-icon" href="images/natius-logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About NATIUS Business Services | Tema, Ghana">
+    <meta property="og:description" content="Learn more about NATIUS Business Services and our commitment to reliable, convenient and professional customer service.">
+    <meta property="og:image" content="images/natius-logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="About NATIUS Business Services | Tema, Ghana">
+    <meta name="twitter:description" content="Learn more about NATIUS Business Services and our commitment to reliable, convenient and professional customer service.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/natius-logo.png" alt="NATIUS Business Services">
+                <span class="brand-name">
+                    <span class="brand-main">NATIUS</span>
+                    <span class="brand-sub">BUSINESS SERVICES</span>
+                </span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="testimony.html">Testimony</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1>About NATIUS Business Services</h1>
+                    <p>NATIUS Business Services is committed to providing convenient, reliable and professional services to our customers in Tema and beyond.</p>
+                    <p>Our goal is to make everyday business and digital services easier, faster and more accessible from document assistance to creative design work.</p>
+                    <h2>Why Choose Us</h2>
+                    <p>We value professionalism, reliability, customer satisfaction and quality service. Whether you need help with passports, birth certificates, online registrations, graphic design or other business services, we are here to assist you.</p>
+                    <a href="contact.html" class="learn-more" style="margin-top: 20px;">Get In Touch</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/about.png" alt="NATIUS Business Services" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a class="floating-whatsapp" href="https://wa.me/233547500825" target="_blank" rel="noopener" aria-label="Chat with NATIUS Business Services on WhatsApp">
+        <i class="fab fa-whatsapp"></i><span>Chat on WhatsApp</span>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2>NATIUS</h2>
+                <p>
+                    NATIUS Business Services is committed to
+                    providing reliable and professional services
+                    to our customers.
+                </p>
+                <p class="footer-tagline">
+                    Your Documents. Our Priority.
+                </p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="testimony.html">Testimony</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Our Services</h3>
+                <ul>
+                    <li>Passport Services</li>
+                    <li>Birth Certificate</li>
+                    <li>Online Registration</li>
+                    <li>Graphic Design</li>
+                    <li>Photo Frame Services</li>
+                    <li>Printing &amp; Book Binding</li>
+                    <li>Lamination, Stickers &amp; Banners</li>
+                    <li>Car Branding &amp; Other Services</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fa-brands fa-whatsapp footer-contact-icon whatsapp-icon"></i> <a href="https://wa.me/233547500825" target="_blank" rel="noopener">0547500825</a></p>
+                <p><i class="fa-solid fa-phone footer-contact-icon phone-icon"></i> <a href="tel:+233530387952">0530387952</a></p>
+                <p><i class="fa-solid fa-envelope footer-contact-icon email-icon"></i> <a href="mailto:natiusbusiness181@gmail.com">natiusbusiness181@gmail.com</a></p>
+                <p><i class="fa-solid fa-location-dot footer-contact-icon location-icon"></i> Tema Community 2, Ghana</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 NATIUS Business Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const toggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+    if (toggle && navLinks) {
+        toggle.addEventListener("click", function() {
+            const isOpen = navLinks.classList.toggle("active");
+            toggle.classList.toggle("active");
+            toggle.setAttribute("aria-expanded", isOpen);
+            document.body.classList.toggle("menu-open", isOpen);
+        });
+        // Close menu when a link is clicked (mobile)
+        navLinks.querySelectorAll("a").forEach(function(link) {
+            link.addEventListener("click", function() {
+                navLinks.classList.remove("active");
+                toggle.classList.remove("active");
+                toggle.setAttribute("aria-expanded", "false");
+                document.body.classList.remove("menu-open");
+            });
+        });
+        // Close on resize to desktop
+        window.addEventListener("resize", function() {
+            if (window.innerWidth > 768) {
+                navLinks.classList.remove("active");
+                toggle.classList.remove("active");
+                toggle.setAttribute("aria-expanded", "false");
+                document.body.classList.remove("menu-open");
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>
